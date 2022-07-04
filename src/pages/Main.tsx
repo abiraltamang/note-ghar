@@ -4,6 +4,9 @@ import Coverpage from "../components/Coverpage";
 import Features1 from "../components/Features1";
 import Features2 from "../components/Features2";
 import CallAction from "../components/CallAction";
+import Work from "../components/Work";
+import Footer from "../components/Footer";
+import Testimonial from "../components/Testimonial";
 
 
 
@@ -15,8 +18,9 @@ const Main = () => {
             <Features1 />
             <Features2 />
             <CallAction />
-
-        </div>
+            <Work />
+            {/* <Testimonial /> */}
+            <Footer />       </div>
     )
 }
 export default Main;

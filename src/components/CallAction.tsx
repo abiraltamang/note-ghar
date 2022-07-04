@@ -1,19 +1,27 @@
 import React from 'react'
+import Image from 'next/image';
+import ButtonComponent from './ButtonComponent';
 
 export default function CallAction() {
     return (
-        <div className="mt-12 flex flex-col relative justify-center w-full h-[30rem] text-white text-center items-center">
-            <img src="/callaction.png" alt="" className=" object-cover" />
-            <div className="bg-black w-full h-[30rem] absolute opacity-60"></div>
-            <div className="absolute top-[15%] ">
-                <p className="text-[3rem] sm:text-[5rem] font-bold mb-6 sm:mb-8">
-                    Only 54 <span className=" text-[2rem] font-none ">$</span>
-                </p>
-                <p className="text-2xl px-4 tracking-wide mb-8">
-                    Make a difference and choose THE BEST for the management of your
-                    business !
-                </p>
+        <div className='relative' >
+            <Image className='absolute top-0 left-0 object-center object-cover brightness-50 ' src="/callaction.png" height={600} width={1660} />
+            <div className='absolute top-0 left-0 flex flex-col items-center justify-center w-full h-[560px] space-y-6 '>
+                <div className='leading-[59px] text-5xl font-bold font-Jost p-15 text-center text-[#FFFFFF] '>
+                    <h1 >List Your Notes With Us </h1>
+                    <h1 >And Access It From Anywhere</h1>
+                </div>
+                <div className='text-center text-white '>
+                    <p>It is a long established fact that a reader will be distracted by the readable </p>
+                    <p>content of a page when looking at its layout.</p>
+                </div>
+                <div className='flex space-x-5 '>
+                    <ButtonComponent buttontitle="Read notes" />
+                    <ButtonComponent buttontitle="Become Author" />
+
+                </div>
             </div>
-        </div>
+
+        </div >
     );
 }
