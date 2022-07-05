@@ -7,7 +7,8 @@ import CallAction from "../components/CallAction";
 import Work from "../components/Work";
 import Footer from "../components/Footer";
 import Testimonial from "../components/Testimonial";
-
+import Courses from "../components/Courses";
+import ButtonComponent from "../components/ButtonComponent";
 
 
 const Main = () => {
@@ -17,10 +18,12 @@ const Main = () => {
             <Coverpage />
             <Features1 />
             <Features2 />
+            <Courses />
             <CallAction />
             <Work />
-            {/* <Testimonial /> */}
-            <Footer />       </div>
+            <Testimonial />
+            <Footer />
+        </div>
     )
 }
 export default Main;

@@ -17,8 +17,8 @@ export default function Footer() {
                 <div>
                     <div className='flex flex-col space-y-5 text-white'>
                         <div>
-                            <h1>Get In Touch</h1>
-                            <div className=''>Underline</div>
+                            <h1 className='text-xl'>Get In Touch</h1>
+                            <div className="w-14 h-[2px]  bg-button my-3"></div>
                         </div>
                         <div className='flex'>
                             <div className='my-3 mr-4'>
@@ -53,25 +53,28 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col  text-white'>
                     <div className='mb-5'>
-                        <h1>Get In Touch</h1>
-                        <div className=''>  Underline</div>
+                        <h1 className='text-xl'>Our Links</h1>
+                        <div className="w-14 h-[2px]  bg-button my-3"></div>
                     </div>
-                    <p>Support</p>
-                    <p>About Us</p>
-                    <p>Contact Us</p>
-                    <p>Trending Notes</p>
-                    <p>Become an Author</p>
+                    <div className='flex flex-col space-y-4'>
+
+                        <p>Support</p>
+                        <p>About Us</p>
+                        <p>Contact Us</p>
+                        <p>Trending Notes</p>
+                        <p>Become an Author</p>
+                    </div>
 
                 </div>
                 <div className='flex flex-col  text-white'>
                     <div className='mb-5'>
-                        <h1>Subscribe</h1>
-                        <div className=''>  Underline</div>
+                        <h1 className='text-xl'>Subscribe</h1>
+                        <div className="w-14 h-[2px]  bg-button my-3"></div>
                     </div>
                     <p className='mb-4'>Get latest notes in your mail, subscribe to our newsletter.</p>
                     <div className=" flex flex-col">
                         <div className='pb-2'>
-                            <input type="text" className="py-1 mr-6 rounded-lg text-tgray pl-2 bg-transparent border-b-2 outline-none" placeholder="Insert your Email" />
+                            <input type="text" className="py-1 mb-4 mr-6 rounded-lg border-slate-400 pl-2 bg-transparent border-b-2 outline-none" placeholder="Insert your Email" />
                         </div>
                         <ButtonComponent buttontitle="Submit" />
                     </div>

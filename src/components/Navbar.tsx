@@ -10,7 +10,8 @@ const Navbar = () => {
             </div>
             <div className="flex ">
                 <div className="mx-3 text-[16px]">
-                    <span>Home</span>
+                    <span className="underline underline-offset-8 decoration-button decoration-2">Home</span>
+
                 </div>
                 <div className="mx-3 text-[16px]">
                     <span>Notes</span>
