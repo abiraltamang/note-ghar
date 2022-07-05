@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className='relative bg-black'>
             <Image src="/footer.png" alt="" className='object-cover object-top' height={400} width={1660} style={{ filter: "brightness(0.15)" }} />
-            <div className='absolute top-0 left-0 p-14 grid grid-cols-5 gap-10 '>
+            <div className='absolute top-0 left-0 p-14 grid grid-cols-5 gap-10'>
                 <div className='text-white text-[1.1rem] col-span-2  mr-40'>
                     <div className='mb-5'>
                         <Image src='/logo.png' height={44.86} width={200} />

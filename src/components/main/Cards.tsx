@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Cards() {
     return (
@@ -10,7 +11,7 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
                         <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
@@ -25,9 +26,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -36,10 +39,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course2.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -51,9 +54,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -62,10 +67,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course3.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -77,9 +82,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -88,10 +95,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course4.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -103,9 +110,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -114,7 +123,7 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
                         <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
@@ -129,9 +138,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -140,10 +151,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course2.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -155,9 +166,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -166,10 +179,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course3.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -181,9 +194,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -192,10 +207,10 @@ export default function Cards() {
                     <p >Price: Rs 250</p>
                     <p>4.5</p>
                 </div>
-                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'>dsdsdsfdfdf</div>
+                <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course4.jpg" className='object-cover ' alt="" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -207,9 +222,11 @@ export default function Cards() {
                             <Image src='/book.png' width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <a className='text-theme font-bold decoration-none' href="">
-                            Read Now
-                        </a>
+                        <Link href='ExamDetails'>
+                            <div className='cursor-pointer text-theme font-bold decoration-none'>
+                                Read Now
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,21 +1,20 @@
 import React from "react";
-import Navbar from '../components/Navbar'
-import Coverpage from "../components/Coverpage";
-import Features1 from "../components/Features1";
-import Features2 from "../components/Features2";
-import CallAction from "../components/CallAction";
-import Work from "../components/Work";
-import Footer from "../components/Footer";
-import Testimonial from "../components/Testimonial";
-import Courses from "../components/Courses";
-import ButtonComponent from "../components/ButtonComponent";
+import Navbar from '../components/main/Navbar'
+import Coverpage from "../components/main/Coverpage";
+import Features1 from "../components/main/Features1";
+import Features2 from "../components/main/Features2";
+import CallAction from "../components/main/CallAction";
+import Work from "../components/main/Work";
+import Footer from "../components/main/Footer";
+import Testimonial from "../components/main/Testimonial";
+import Courses from "../components/main/Courses";
 
 
 const Main = () => {
     return (
         <div>
             <Navbar />
-            <Coverpage />
+            <Coverpage height="755" />
             <Features1 />
             <Features2 />
             <Courses />
