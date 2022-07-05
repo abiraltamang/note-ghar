@@ -10,7 +10,7 @@ const Features1 = () => {
                         <div className="absolute top-10 left-13 m-7">
                             <div className="flex flex-col items-center justify-center">
                                 <div>
-                                    <Image src="/featureicon1.png" alt="" width={50} height={50} />
+                                    <Image src="/featureicon1.png" alt="cover image" width={50} height={50} />
                                 </div>
                                 <h2 className="font-bold text-xl text-center mt-2">Easy Accessible</h2>
                                 <p className=" text-base text-center mt-2">It is a long established fact that a

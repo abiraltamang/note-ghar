@@ -14,7 +14,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course1.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -23,10 +23,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -42,7 +42,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course2.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course2.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -51,10 +51,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -70,7 +70,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course3.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course3.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -79,10 +79,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -98,7 +98,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course4.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course4.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -107,10 +107,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -126,7 +126,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course1.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course1.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -135,10 +135,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -154,7 +154,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course2.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course2.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -163,10 +163,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -182,7 +182,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course3.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course3.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -191,10 +191,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>
@@ -210,7 +210,7 @@ export default function Cards() {
                 <div className='absolute top-44 left-5 bg-black z-10  opacity-50 w-64 h-10 rounded-md p-2'></div>
                 <div className=' row-span-3'>
                     <div>
-                        <Image src="/course4.jpg" className='object-cover ' alt="" width={500} height={400} />
+                        <Image src="/course4.jpg" className='object-cover ' alt="card image" width={500} height={400} />
                     </div>
                 </div>
                 <div className='flex flex-col m-5 row-span-3 space-y-4 text-[#37474F]'>
@@ -219,10 +219,10 @@ export default function Cards() {
                         will be distracted for the post.</p>
                     <div className='flex items-center justify-between mt-3'>
                         <div className='flex items-center justify-center'>
-                            <Image src='/book.png' width={20} height={20} />
+                            <Image src='/book.png' alt="card image" width={20} height={20} />
                             <span className='ml-2'>400 Readings</span>
                         </div>
-                        <Link href='ExamDetails'>
+                        <Link href='Examdetails'>
                             <div className='cursor-pointer text-theme font-bold decoration-none'>
                                 Read Now
                             </div>

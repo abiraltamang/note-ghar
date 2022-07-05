@@ -16,14 +16,14 @@ export default function Testimonial() {
                 <div className='w-[500px] h-[300px] flex flex-col border-theme border-[3px] rounded-lg p-10'>
                     <div className='flex items-center justify-between'>
                         <div className=' '>
-                            <Image src='/reviewer2.jpg' className='rounded-lg  ' height={105} width={100} />
+                            <Image src='/reviewer2.jpg' alt='reviewer' className='rounded-lg  ' height={105} width={100} />
                         </div>
                         <div className='-ml-10'>
                             <h3 className='text-2xl font-bold font-Jost'>Sarah Jain</h3>
                             <p>Physics & Biology</p>
                         </div>
                         <div>
-                            <Image src='/quotation.png' height={80} width={100} />
+                            <Image src='/quotation.png' alt='quotation' height={80} width={100} />
                         </div>
 
                     </div>
@@ -36,7 +36,7 @@ export default function Testimonial() {
                 <div className='w-[500px] h-[300px] flex flex-col border-theme border-[3px] rounded-lg p-10'>
                     <div className='flex items-center justify-start'>
                         <div className=''>
-                            <Image src='/reviewer1.jpg' className='rounded-lg ' height={105} width={100} />
+                            <Image src='/reviewer1.jpg' alt='reviewer' className='rounded-lg ' height={105} width={100} />
                         </div>
                         <div className='ml-8'>
                             <h3 className='text-2xl font-bold font-Jost'>Jiya Divakar</h3>

@@ -5,7 +5,7 @@ import ButtonComponent from './ButtonComponent';
 export default function CallAction() {
     return (
         <div className='relative' >
-            <Image className='absolute top-0 left-0 object-center object-cover brightness-50 ' src="/callaction.png" height={600} width={1660} />
+            <Image className='absolute top-0 left-0 object-center object-cover brightness-50 ' src="/callaction.png" alt='bg image' height={600} width={1660} />
             <div className='absolute top-0 left-0 flex flex-col items-center justify-center w-full h-[560px] space-y-6 '>
                 <div className='leading-[59px] text-5xl font-bold font-Jost p-15 text-center text-[#FFFFFF] '>
                     <h1 >List Your Notes With Us </h1>

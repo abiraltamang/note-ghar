@@ -6,7 +6,7 @@ const Work = () => {
         <div className='grid grid-cols-2 my-20'>
             <div className="flex items-center justify-center">
                 <div>
-                    <Image src='/work.png' width={400} height={400}></Image>
+                    <Image src='/work.png' alt="image" width={400} height={400}></Image>
                 </div>
             </div>
             <div className='flex flex-col mr-32 text-[#37474F] space-y-6' >
@@ -22,7 +22,7 @@ const Work = () => {
                 </div>
                 <div className='flex mt-6'>
                     <div className='mx-4'>
-                        <Image src="/w1.png" alt="" width={50} height={50} />
+                        <Image src="/w1.png" alt="image" width={50} height={50} />
                     </div>
                     <div className='flex flex-col space-y-2 pr-28'>
                         <h1 className='text-2xl font-bold font-Jost '>Write your Notes or Upload It</h1>
@@ -31,7 +31,7 @@ const Work = () => {
                 </div>
                 <div className='flex mt-6'>
                     <div className='mx-4'>
-                        <Image src="/w2.png" alt="" width={50} height={50} />
+                        <Image src="/w2.png" alt="image" width={50} height={50} />
                     </div>
                     <div className='flex flex-col space-y-2 pr-28'>
                         <h1 className='text-2xl font-bold font-Jost '>Categorized It In Related Subjects</h1>
@@ -40,7 +40,7 @@ const Work = () => {
                 </div>
                 <div className='flex mt-6'>
                     <div className='mx-4'>
-                        <Image src="/w3.png" alt="" width={50} height={50} />
+                        <Image src="/w3.png" alt="image" width={50} height={50} />
                     </div>
                     <div className='flex flex-col space-y-2 pr-28'>
                         <h1 className='text-2xl font-bold font-Jost '>Access Your Notes Anywhere</h1>

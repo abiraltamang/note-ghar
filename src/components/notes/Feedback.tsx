@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Feedback() {
     return (
-        <div className='m-10 '>
+        <div className='m-10'>
             <h1 className='leading-[48px] text-4xl font-semibold font-Jost text-[#37474F]'>Reader Feedback</h1>
             <div className='mt-10 w-[780px] h-[169px] rounded-md border-[#E0E0E0] border-2'>
                 <div className='grid grid-cols-4 m-10 items-center'>
@@ -12,11 +12,11 @@ export default function Feedback() {
 
                             <p className='font-Jost text-sm  border-[#37474F]'>5 Days ago</p>
                             <div>
-                                <Image src='/filledstar.png' width={15} height={15}></Image>
-                                <Image src='/filledstar.png' width={15} height={15}></Image>
-                                <Image src='/filledstar.png' width={15} height={15}></Image>
-                                <Image src='/filledstar.png' width={15} height={15}></Image>
-                                <Image src='/unfilledstar.png' width={15} height={15}></Image>
+                                <Image src='/filledstar.png' alt='star' width={15} height={15}></Image>
+                                <Image src='/filledstar.png' alt='star' width={15} height={15}></Image>
+                                <Image src='/filledstar.png' alt='star' width={15} height={15}></Image>
+                                <Image src='/filledstar.png' alt='star' width={15} height={15}></Image>
+                                <Image src='/unfilledstar.png' alt='star' width={15} height={15}></Image>
                             </div>
                         </div>
 

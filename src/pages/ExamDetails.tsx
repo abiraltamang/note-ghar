@@ -2,16 +2,14 @@ import React from 'react';
 import Navbar from '../components/main/Navbar';
 import Footer from '../components/main/Footer';
 import Notecover from '../components/notes/Notecover';
-import Feedback from '../components/notes/Feedback';
-import Publisher from '../components/notes/Publisher';
+import All from '../components/notes/All';
 
-export default function ExamDetails() {
+export default function Examdetails() {
     return (
         <>
             <Navbar />
             <Notecover detail="Economics Complete Note" />
-            <Publisher />
-            <Feedback />
+            <All />
             <Footer />
         </>
     )

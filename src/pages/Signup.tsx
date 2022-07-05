@@ -10,11 +10,11 @@ export default function Signup() {
                 <div className="object-cover  relative z-0 w-full h-[760px]">
                     <Link href="Main">
                         <div className='absolute cursor-pointer top-12 left-10 z-10'>
-                            <Image src="/logo.png" width={220} height={50} />
+                            <Image src="/logo.png" alt='logo' width={220} height={50} />
                         </div>
                     </Link>
                     <div>
-                        <Image className='object-cover object-right ' src='/login page.png' layout="fill"></Image>
+                        <Image className='object-cover object-right' alt='login page' src='/login page.png' layout="fill"></Image>
                     </div>
                 </div>
                 <div className='flex flex-col m-10 mt-32 text-[#323232] space-y-6' >

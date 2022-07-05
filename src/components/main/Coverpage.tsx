@@ -9,7 +9,7 @@ export default function Coverpage({ height }: Props) {
     return (
         <div>
             <div className='relative before:h-[900px] w-full'>
-                <Image src='/cover.png' height={height} width={1580} />
+                <Image src='/cover.png' alt='cover image' height={height} width={1580} />
                 <div className=' absolute top-0 left-0 font-bold h-[715px] w-full bg-black opacity-50' ></div>
                 <div className='absolute top-[150px] left-[393px]  w-[655px] h-[130px] font-jost text-white '>
                     <p className='font-bold font-jost not-italic text-[50px] leading-[65px] text-center' >We Store Notes and Spread All Over the World </p>

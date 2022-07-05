@@ -16,7 +16,7 @@ export default function Features2() {
                     </div>
                     <div className='flex mt-6'>
                         <div className='mx-4'>
-                            <Image src="/edit.png" alt="" width={50} height={50} />
+                            <Image src="/edit.png" alt="image" width={50} height={50} />
                         </div>
                         <div className='flex flex-col space-y-2 pr-28'>
                             <h1 className='text-2xl font-bold font-Jost '>List Your Notes In Few Clicks</h1>
@@ -26,7 +26,7 @@ export default function Features2() {
                     </div>
                     <div className='flex mt-6'>
                         <div className='mx-4'>
-                            <Image src="/book.png" alt="" width={50} height={50} />
+                            <Image src="/book.png" alt="image" width={50} height={50} />
                         </div>
                         <div className='flex flex-col space-y-2 pr-28'>
                             <h1 className='text-2xl font-bold font-Jost '>Access It All Over The World</h1>
@@ -37,7 +37,7 @@ export default function Features2() {
                 </div>
                 <div className="flex items-center justify-center">
                     <div>
-                        <Image src='/aboutsection.png' width={400} height={400}></Image>
+                        <Image src='/aboutsection.png' alt='image' width={400} height={400}></Image>
                     </div>
                 </div>
 
