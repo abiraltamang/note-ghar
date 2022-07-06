@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Notes() {
     return (
         <div className='m-10'>
-            <Image src='/course1.jpg' alt='note' height={500} width={800} />
+            <Image src='/economics image.png' alt='note' height={500} width={800} />
             <h1 className='leading-[48px] mt-4 text-4xl font-semibold font-Jost text-[#37474F]'>Economics Complete Note</h1>
             <div className='flex justify-start mt-9 mb-5 items-center space-x-10 text-sm font-medium font-Jost'>
                 <div className='flex items-center'>

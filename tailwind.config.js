@@ -4,6 +4,14 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
@@ -14,6 +22,9 @@ module.exports = {
         Gray: "#455A64",
         button: "#FF532D",
         tgray: "#DDDDDD",
+        themetext: "#37474F",
+        purple: "#7436FF",
+        white: "#FFFFFF",
       },
     },
   },

@@ -1,15 +1,19 @@
 import React from "react";
 import Image from "next/image";
 import ButtonComponent from "./ButtonComponent";
-import Link from 'next/link'
+import Link from 'next/link';
+
+
 
 const Navbar = () => {
     return (
         <div className="flex items-center justify-around h-[100px] w-full text-[#FFFFFF] bg-theme ">
-            <div>
-                <Image src='/logo.png' alt="cover image" height={44.86} width={200} />
-            </div>
-            <div className="flex ">
+            <Link href="Main">
+                <div className="cursor-pointer">
+                    <Image src='/logo.png' alt="cover image" height={44.86} width={200} />
+                </div>
+            </Link>
+            <div className="lg:flex hidden ">
                 <Link href='Main'>
                     <div className="mx-3 text-[16px] cursor-pointer">
                         <span className="underline underline-offset-8 decoration-button decoration-2">Home</span>
@@ -45,7 +49,7 @@ const Navbar = () => {
                 </svg>
                 <Link href="Signin">
                     <div>
-                        <ButtonComponent buttontitle="Login/Signup" />
+                        <button className="orange-btn">Login/Register</button>
                     </div>
                 </Link>
             </div>

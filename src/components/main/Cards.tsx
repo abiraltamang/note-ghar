@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Cards() {
     return (
 
-        <div className='grid grid-cols-4 gap-5 ml-12 mb-8' >
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 ml-12 mb-8' >
             <div className='relative z-0 w-72 h-96 shadow-lg shadow-slate-300 rounded-lg grid grid-rows-5'>
                 <div className='absolute z-20 px-4 top-44 left-5 font-medium font-Jost leading-1  flex items-center text-white text-sm justify-between  w-64 rounded-md p-2'>
                     <p >Price: Rs 250</p>

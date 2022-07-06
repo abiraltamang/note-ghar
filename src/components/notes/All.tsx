@@ -4,7 +4,9 @@ import Feedback from './Feedback'
 import Publisher from './Publisher'
 import Topics from './Topics'
 import Benefits from './Benefits'
-import Details from '../exam/Details'
+import Categories from '../exam/Categories'
+import Relatedexams from '../exam/Relatedexams'
+import ExamdetailsTable from '../exam/ExamdetailsTable'
 
 export default function All() {
     return (
@@ -17,9 +19,10 @@ export default function All() {
                 <Feedback />
             </div>
             <div className='space-y-20 mt-10'>
-                <Details />
-                <Details />
-                <Details />
+                <ExamdetailsTable />
+                <Categories />
+                <Relatedexams />
+
 
 
 

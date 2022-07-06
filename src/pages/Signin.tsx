@@ -34,7 +34,7 @@ export default function Login() {
                     </Link>
                 </div>
                 <div>
-                    <ButtonComponent buttontitle="Login" />
+                    <button className='purple-btn'>login</button>
                 </div>
 
                 <div>

@@ -9,7 +9,7 @@ export default function Courses() {
             <CourseHeading />
             <Cards />
             <div className='flex items-center justify-center my-14 '>
-                <ButtonComponent buttontitle="More Notes" />
+                <button className='theme-btn'>More Notes</button>
             </div>
         </>
     )

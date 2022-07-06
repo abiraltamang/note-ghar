@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Features2() {
     return (
         <div>
-            <div className='grid grid-cols-2 my-20'>
-                <div className='flex flex-col ml-32 text-[#37474F] space-y-6' >
+            <div className='grid grid-cols-1 sm:grid-cols-2 my-20'>
+                <div className='flex flex-col text-[#37474F] order-2 space-y-6' >
                     <div>
                         <h1 className='leading-[59px] text-5xl font-bold font-Jost'>Manage Your Notes
                             Access & Read Anywhere</h1>
@@ -35,9 +35,9 @@ export default function Features2() {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center order-1">
                     <div>
-                        <Image src='/aboutsection.png' alt='image' width={400} height={400}></Image>
+                        <Image src='/aboutsection.png' alt='image' width={400} height={400} layout="intrinsic"></Image>
                     </div>
                 </div>
 

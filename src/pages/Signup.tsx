@@ -54,7 +54,7 @@ export default function Signup() {
                         </div>
                     </div>
                     <div>
-                        <ButtonComponent buttontitle="Login" />
+                        <button className='purple-btn'>Signup</button>
                     </div>
 
                     <div>

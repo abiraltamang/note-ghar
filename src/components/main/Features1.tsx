@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Features1 = () => {
     return (
-        <div className="relative w-full h-[150px] ">
-            <div className="absolute -top-40 left-20 ">
-                <div className="grid grid-cols-4 gap-10 ">
+        <div className="relative w-full h-32 ">
+            <div className="absolute -top-40  h-full w-full ">
+                <div className="flex w-full h-full justify-evenly items-baseline space-x-6 ">
                     <div className="relative w-[305px] h-[293px] bg-white rounded-lg shadow-xl">
                         <div className="absolute top-10 left-13 m-7">
                             <div className="flex flex-col items-center justify-center">

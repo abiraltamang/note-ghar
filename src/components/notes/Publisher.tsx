@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Rating from './Rating';
 
 export default function Publisher() {
     return (
@@ -16,12 +17,10 @@ export default function Publisher() {
                             <p className='text-theme font-medium'>Socialogy, Physics and Biology</p>
                         </div>
                     </div>
-                    <div className='w-16 h-7 border-[#E0E0E0] border-2 rounded-md justify-self-start flex items-center justify-center  '>
-                        <Image src='/filledstar.png' className='' alt='start' width={15} height={15} />
-                        <span className='text-xs ml-2'>4.5</span>
-
-
+                    <div className='border-[#E0E0E0] border-2 rounded-lg'>
+                        <Rating />
                     </div>
+
 
                 </div>
                 <div className='mt-5 text-sm text-Inter leading-6 mr-10'>

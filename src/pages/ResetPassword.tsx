@@ -33,7 +33,7 @@ export default function Resetpassword() {
                     <input type="password" placeholder='Enter code' className='outline-none border-b-2 border-tgray p-2 rounded-lg w-96' />
                 </div>
                 <div>
-                    <ButtonComponent buttontitle="Verify" />
+                    <button className='purple-btn'>Verify</button>
                 </div>
 
                 <div>
