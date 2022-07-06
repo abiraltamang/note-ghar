@@ -15,7 +15,7 @@ const Main = () => {
         <div>
             <Navbar />
             <Coverpage height="755" />
-            {/* <Features1 /> */}
+            <Features1 />
             <Features2 />
             <Courses />
             <CallAction />

@@ -9,7 +9,13 @@
     @apply bg-purple border-[1px] border-purple text-white p-2 px-8 rounded-lg cursor-pointer
 }
 .small-blue-btn{
-    @apply bg-theme border-[1px] border-theme text-white p-1 px-4 cursor-pointer
+    @apply bg-theme border-[1px] border-theme text-white p-1 px-2 cursor-pointer
+}
+.small-transparent-btn{
+    @apply bg-transparent border-[1px] border-[#DDDDDD] text-white p-1 px-2 cursor-pointer
+}
+.small-transparent-btn2{
+    @apply bg-transparent border-[1px] border-[#DDDDDD]  text-[#37474F] p-1 px-2 cursor-pointer
 }
 
 
@@ -18,7 +24,7 @@
 }
 
 .transparent-btn{
-    @apply bg-transparent border-[1px] border-[#DDDDDD] text-[#DDDDDD] p-2 px-8 rounded-lg cursor-pointer
+    @apply bg-transparent border-[1px] border-[#DDDDDD]  text-[#DDDDDD] p-2 px-8 rounded-lg cursor-pointer
 }
 
 .blue-outline-btn{
