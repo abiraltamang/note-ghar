@@ -13,6 +13,50 @@ module.exports = {
       "2xl": "1536px",
     },
     extend: {
+      fontSize: {
+        mainheading: [
+          "50px",
+          {
+            lineHeight: "65px",
+          },
+        ],
+        heading: [
+          "45px",
+          {
+            lineHeight: "59px",
+          },
+        ],
+        subheading: [
+          "25px",
+          {
+            lineHeight: "33px",
+          },
+        ],
+        miniheading: [
+          "20px",
+          {
+            lineHeight: "29px",
+          },
+        ],
+        para: [
+          "16px",
+          {
+            lineHeight: "19px",
+          },
+        ],
+        subpara: [
+          "14px",
+          {
+            lineHeight: "17px",
+          },
+        ],
+        subpara2: [
+          "14px",
+          {
+            lineHeight: "20px",
+          },
+        ],
+      },
       fontFamily: {
         Inter: ["Inter", "sans-serif"],
         Jost: ["Jost", "sans-serif"],

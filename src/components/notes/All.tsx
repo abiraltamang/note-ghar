@@ -10,7 +10,7 @@ import ExamdetailsTable from '../exam/ExamdetailsTable'
 
 export default function All() {
     return (
-        <div className='flex mx-28 space-x-20 justify-start'>
+        <div className='flex '>
             <div>
                 <Notes />
                 <Topics />
@@ -18,17 +18,11 @@ export default function All() {
                 <Publisher />
                 <Feedback />
             </div>
-            <div className='space-y-20 mt-10'>
+            {/* <div>
                 <ExamdetailsTable />
                 <Categories />
                 <Relatedexams />
-
-
-
-
-            </div>
-
-
+            </div> */}
         </div>
     )
 }

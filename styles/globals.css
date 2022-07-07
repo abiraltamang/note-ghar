@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 .orange-btn{
-    @apply bg-button border-[1px] border-button text-white p-2 px-8 rounded-lg cursor-pointer
+    @apply bg-button text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
+}
+.blue-btn{
+    @apply bg-theme text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
+}
+.transparent-btn{
+    @apply bg-transparent text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
 }
 .purple-btn{
     @apply bg-purple border-[1px] border-purple text-white p-2 px-8 rounded-lg cursor-pointer
@@ -19,13 +25,7 @@
 }
 
 
-.theme-btn{
-    @apply bg-theme  border-[1px] border-theme text-white p-2 px-8 rounded-lg cursor-pointer
-}
 
-.transparent-btn{
-    @apply bg-transparent border-[1px] border-[#DDDDDD]  text-[#DDDDDD] p-2 px-8 rounded-lg cursor-pointer
-}
 
 .blue-outline-btn{
     @apply bg-transparent border-[1px] border-theme text-themetext p-2 px-8 rounded-lg cursor-pointer

@@ -4,7 +4,7 @@ import ButtonComponent from './ButtonComponent';
 
 export default function Footer() {
     return (
-        <footer>
+        < footer >
             <div className=' relative h-full w-full'>
                 <Image src='/footer.png' alt="" className='object-cover object-left-top' layout='fill' style={{ filter: 'brightness(0.2)' }} />
                 <div className='relative top-0 left-0 p-14 grid grid-cols-1  md:grid-cols-5 space-y-10 '>
@@ -82,12 +82,12 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='flex items-center justify-center bg-black text-white h-12'>
+            <div className='text-xs sm:text-base  lg:text-lg flex items-center justify-center bg-black text-white h-12'>
                 <p className='mb-2'>Copyright © 2022 NoteGhar - All rights reserved. </p>
 
             </div>
 
 
-        </ footer>
+        </ footer >
     )
 }
