@@ -14,7 +14,7 @@ const Main = () => {
     return (
         <div>
             <Navbar />
-            <Coverpage height="755" />
+            <Coverpage height={700} />
             <Features1 />
             <Features2 />
             <Courses />

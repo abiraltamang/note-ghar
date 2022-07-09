@@ -7,12 +7,9 @@ type Props = {
 }
 export default function Cards({ image }: Props) {
 
-
-
     return (
-
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <Image className="w-full" src={`/${image}.jpg`} alt="Sunset in the mountains" width={400} height={400} />
+            <Image className="w-full" src={`/${image}.jpg`} alt="Sunset in the mountains" width={305} height={260} layout="responsive" />
             <div className="px-6 py-4">
                 <div className="font-bold text-lg sm:text-xl mb-2">Economics Complete Note</div>
                 <p className="text-gray-700 text-sm sm:text-base">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Jost:wght@500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,25 +11,52 @@
     @apply bg-theme text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
 }
 .transparent-btn{
-    @apply bg-transparent text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
+    @apply bg-transparent border-white border-[1px] text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
+}
+.hovertransparent-btn{
+    @apply bg-transparent border-white border-[1px] text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px] hover:bg-theme  hover:border-theme
 }
 .purple-btn{
     @apply bg-purple border-[1px] border-purple text-white p-2 px-8 rounded-lg cursor-pointer
 }
 .small-blue-btn{
-    @apply bg-theme border-[1px] border-theme text-white p-1 px-2 cursor-pointer
+    @apply bg-theme border-[1px] border-theme text-white h-[25px] px-2 cursor-pointer
 }
 .small-transparent-btn{
     @apply bg-transparent border-[1px] border-[#DDDDDD] text-white p-1 px-2 cursor-pointer
+}
+.hover-small-transparent-btn{
+    @apply bg-transparent border-[1px] border-[#DDDDDD] text-white p-1 px-2 cursor-pointer hover:bg-theme hover:border-theme
 }
 .small-transparent-btn2{
     @apply bg-transparent border-[1px] border-[#DDDDDD]  text-[#37474F] p-1 px-2 cursor-pointer
 }
 
-
-
-
 .blue-outline-btn{
     @apply bg-transparent border-[1px] border-theme text-themetext p-2 px-8 rounded-lg cursor-pointer
 
+}
+
+
+.main-heading{
+    @apply font-Jost font-bold text-[50px] leading-[65px] text-white
+}
+
+.heading{
+    @apply font-Jost font-bold text-[50px] leading-[51px] text-[#37474F]
+}
+
+.sub-heading{
+    @apply font-Jost font-bold text-[25px] leading-[33px] text-[#37474F]
+}
+
+.para{
+    @apply font-Inter font-medium text-[16px] leading-[19px] 
+}
+.btn-text{
+    @apply font-Jost font-medium text-[16px] leading-[23px] 
+}
+
+.rating{
+    @apply rounded-md justify-self-start flex items-center justify-center 
 }

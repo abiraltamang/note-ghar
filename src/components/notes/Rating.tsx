@@ -1,10 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-export default function Rating() {
+
+type Props = {
+    textColor: any,
+}
+
+export default function Rating({ textColor }: Props) {
     return (
-        <div className='w-16 h-7  rounded-md justify-self-start flex items-center justify-center  '>
+        <div className={` rating `} >
             <Image src='/filledstar.png' className='' alt='start' width={15} height={15} />
-            <span className='text-xs ml-2'>4.5</span>
+            <span className={`text-xs ml-2 font-Inter font-medium  ${textColor}`}>4.5</span>
         </div>
     )
 }
