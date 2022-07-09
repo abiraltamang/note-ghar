@@ -7,7 +7,7 @@ export default function Courses() {
     return (
         <>
             <CourseHeading />
-            <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 m-5'>
+            <div className='grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-8 m-5'>
 
                 <Cards image='course1' />
                 <Cards image='course2' />
@@ -20,7 +20,7 @@ export default function Courses() {
 
             </div>
             <div className='flex items-center justify-center my-14 '>
-                <button className='theme-btn'>More Notes</button>
+                <button className='blue-btn w-[155px]'>More Notes</button>
             </div>
         </>
     )

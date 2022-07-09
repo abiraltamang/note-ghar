@@ -12,33 +12,33 @@ export default function CourseHeading() {
             <div className='grid grid-cols-3 xs:grid-cols-4 sm:grid-cols-6  md:grid-cols-3 xl:grid-cols-6 gap-5 '>
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-white'>All Exams</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>All Exams</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>All Exams</button>
                 </div>
 
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-white '>Computer</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Science</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Science</button>
 
                 </div>
 
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-white'>Mathematics</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Mathematics</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Mathematics</button>
                 </div>
 
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-white'>Science</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Computer</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Computer</button>
                 </div>
 
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-white'>Economics</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Economics</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>Economics</button>
                 </div>
 
                 <div>
                     <button className='small-transparent-btn2 rounded-lg md:hidden text-xs hover:bg-theme hover:text-whites'>More Notes</button>
-                    <button className='bg-transparent border-2 border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>More</button>
+                    <button className='bg-transparent border-[1px] border-theme w-[145px] h-45px hidden md:block btn-text hover:bg-theme hover:text-white rounded-md p-2'>More</button>
                 </div>
 
             </div>
