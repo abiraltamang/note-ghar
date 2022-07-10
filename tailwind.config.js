@@ -10,7 +10,7 @@ module.exports = {
       md: "768px",
       lg: "1024px",
       xl: "1280px",
-      "2xl": "1536px",
+      xxl: "1440px",
     },
     extend: {
       fontSize: {
@@ -37,6 +37,12 @@ module.exports = {
           "25px",
           {
             lineHeight: "33px",
+          },
+        ],
+        subheading2: [
+          "25px",
+          {
+            lineHeight: "28px",
           },
         ],
         miniheading: [

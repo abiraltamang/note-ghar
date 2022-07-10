@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .orange-btn{
-    @apply bg-button text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]
+    @apply bg-button text-white h-[45px] rounded-[5px] cursor-pointer font-Jost  leading-[23px]
 }
 .blue-btn{
     @apply bg-theme text-white h-[45px] rounded-[5px] cursor-pointer font-Jost font-medium leading-[23px]

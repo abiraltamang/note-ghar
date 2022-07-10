@@ -9,7 +9,6 @@ export default function Contactus() {
         <div>
             <Navbar />
             <Notecover detail="Contact us" />
-            <PriceRating price="2k" />
 
             <Drop />
             <Footer />

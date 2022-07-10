@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Features1 = () => {
     return (
-        <div className="relative hidden lg:block w-full h-32 ">
-            <div className="absolute -top-40 xl:-top-40  h-full w-full ">
-                <div className="flex w-full h-full justify-evenly items-baseline space-x-6 ">
-                    <div className="relative w-[305px] h-[293px] bg-white rounded-lg shadow-xl">
+        <div className="relative hidden xl:block w-full h-[146.5px] ">
+            <div className="absolute -top-40 xl:-top-40   ">
+                <div className="flex  max-w-[1340px]  mx-[50px] justify-evenly items-baseline space-x-[40px] ">
+                    <div className="relative xl:w-[274.5px] xl:h-[263.7px] xxl:w-[305px] xxl:h-[293px] bg-white rounded-lg shadow-xl">
                         <div className="absolute top-0 w-full h-full left-0 flex  flex-col items-center justify-center space-y-2">
                             <div>
                                 <Image src="/featureicon1.png" alt="cover image" width={50} height={50} />
@@ -17,7 +17,7 @@ const Features1 = () => {
                                 the readable content.</p>
                         </div>
                     </div>
-                    <div className="relative w-[305px] h-[293px] bg-white rounded-lg shadow-xl">
+                    <div className="relative  xl:w-[274.5px] xl:h-[263.7px] xxl:w-[305px] xxl:h-[293px] bg-white rounded-lg shadow-xl">
                         <div className="absolute top-0 w-full h-full left-0 flex  flex-col items-center justify-center space-y-2">
                             <div>
                                 <Image src="/featureicon2.png" alt="cover image" width={50} height={50} />
@@ -28,7 +28,7 @@ const Features1 = () => {
                                 the readable content.</p>
                         </div>
                     </div>
-                    <div className="relative w-[305px] h-[293px] bg-white rounded-lg shadow-xl">
+                    <div className="relative  xl:w-[274.5px] xl:h-[263.7px] xxl:w-[305px] xxl:h-[293px] bg-white rounded-lg shadow-xl">
                         <div className="absolute top-0 w-full h-full left-0 flex  flex-col items-center justify-center space-y-2">
                             <div>
                                 <Image src="/featureicon3.png" alt="cover image" width={50} height={50} />
@@ -39,7 +39,7 @@ const Features1 = () => {
                                 the readable content.</p>
                         </div>
                     </div>
-                    <div className="relative w-[305px] h-[293px] bg-white rounded-lg shadow-xl">
+                    <div className="relative  xl:w-[274.5px] xl:h-[263.7px] xxl:w-[305px] xxl:h-[293px] bg-white rounded-lg shadow-xl">
                         <div className="absolute top-0 w-full h-full left-0 flex  flex-col items-center justify-center space-y-2">
                             <div>
                                 <Image src="/featureicon4.png" alt="cover image" width={50} height={50} />
