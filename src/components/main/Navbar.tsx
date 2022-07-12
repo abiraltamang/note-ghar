@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div>
             <div className=" relative  w-full text-[#FFFFFF] bg-theme ">
-                <div className="flex items-center max-w-[1340px] mx-[14px] sm:mx-[22px] md:mx-[26px] lg:mx-[32px] xl:mx-[50px]   justify-between h-[70px] sm:h-[100px]  ">
+                <div className="flex items-center  mx-[14px] sm:mx-[22px] md:mx-[26px] lg:mx-[32px] xl:mx-[50px]   justify-between h-[70px] sm:h-[100px]  ">
 
 
                     <Link href="Main">
@@ -32,10 +32,10 @@ const Navbar = () => {
                             </div>
                         )
                     }
-                    <div className=" lg:flex hidden space-x-6 xl:space-x-[40px] text-[16px] cursor-pointer font-Jost font-medium ">
+                    <div className=" lg:flex hidden space-x-6 xl:space-x-[40px] text-[16px] cursor-pointer font-Jost font-normal  ">
                         <Link href='Main'>
                             <div className="">
-                                <span>Home</span>
+                                <span className="">Home</span>
                             </div>
                         </Link>
                         <Link href="Notes">

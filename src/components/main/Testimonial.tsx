@@ -1,7 +1,9 @@
-import React from 'react'
-import Image from 'next/image'
+import React, { useState } from 'react'
+import Image from 'next/image';
 
 export default function Testimonial() {
+    const [count, setCount] = useState(1);
+
     return (
         <div className='my-14'>
             <div className='flex flex-col items-center justify-center'>
@@ -13,6 +15,8 @@ export default function Testimonial() {
                     </div>
                 </div>
             </div>
+
+
             <div className=' flex flex-col sm:flex-row items-center justify-between my-6 mx-[22px] sm:mx-[55px] md:mx-[65px] lg:mx-[80px] xl:mx-[125px] text-themetext sm:space-x-[40px] space-y-5 sm:space-y-0 '>
                 <div className='w-full h-full  xl:w-[575px] xl:h-[321px] flex flex-col border-[#CCCCCC] hover:border-theme border-[1px] rounded-lg p-3 md:p-5 lg:p-10 '>
                     <div className='flex items-center justify-start space-x-4 '>
@@ -44,7 +48,7 @@ export default function Testimonial() {
                 </div>
 
             </div>
-            <div className='flex items-center justify-center space-x-2'>
+            <div className='flex items-center justify-center space-x-2 my-10'>
                 <div className='w-[12px] h-[12px] rounded-[50%] bg-[#1BA8B1]'></div>
                 <div className='w-[12px] h-[12px] rounded-[50%] bg-[#E0E0E0] hover:bg-[#1BA8B1]'></div>
                 <div className='w-[12px] h-[12px] rounded-[50%] bg-[#E0E0E0] hover:bg-[#1BA8B1]'></div>

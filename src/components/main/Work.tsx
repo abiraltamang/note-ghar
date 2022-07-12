@@ -19,8 +19,8 @@ const Work = () => {
 
                     </div>
                     <div className='flex  mt-6'>
-                        <div className='mx-4'>
-                            <Image src="/w1.png" alt="image" width={40} height={40} layout='fixed' />
+                        <div className='mr-4'>
+                            <Image src="/w1.png" alt="image" width={80} height={80} layout='fixed' />
                         </div>
                         <div className='flex flex-col space-y-2 border-r-[1px] border-[#7436FF21] mr-8 w-[429px]'>
                             <h1 className='text-md xs:text-lg sm:text-xl md:text-2xl xl:text-subheading font-bold font-Jost '>Write your Notes or Upload It</h1>
@@ -31,8 +31,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className='flex mt-6'>
-                        <div className='mx-4'>
-                            <Image src="/w2.png" alt="image" width={40} height={40} layout="fixed" />
+                        <div className='mr-4'>
+                            <Image src="/w2.png" alt="image" width={80} height={80} layout="fixed" />
                         </div>
                         <div className='flex flex-col space-y-2 border-r-[1px] border-[#7436FF21] mr-8 w-[429px]'>
                             <h1 className='text-md xs:text-lg sm:text-xl md:text-2xl xl:text-subheading font-bold font-Jost '>Categorized It In Related Subjects</h1>
@@ -43,8 +43,8 @@ const Work = () => {
                         </div>
                     </div>
                     <div className='flex mt-6'>
-                        <div className='mx-4 '>
-                            <Image src="/w3.png" alt="image" width={40} height={40} layout="fixed" />
+                        <div className=' mr-4 '>
+                            <Image src="/w3.png" alt="image" width={80} height={80} layout="fixed" />
                         </div>
                         <div className='flex flex-col space-y-2 border-r-[1px] border-[#7436FF21] mr-8 w-[429px]'>
                             <h1 className='text-md xs:text-lg sm:text-xl md:text-2xl xl:text-subheading font-bold font-Jost  '>Access Your Notes Anywhere</h1>
