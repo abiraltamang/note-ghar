@@ -24,8 +24,8 @@ function Notification() {
             </div>
             {isActive && (
                 <div className=' absolute top-[90px] right-8 flex flex-col border-[1px] shadow-2xl rounded w-[254px] p-5 space-y-4 bg-white z-50 font-Inter text-[15px] font-normal'>
-                    {notices.map((notice) => (
-                        <div >
+                    {notices.map((notice: any, index: number) => (
+                        <div key={index} >
                             <p>{notice}</p>
                             <div className='flex items-center space-x-1 mt-3'>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

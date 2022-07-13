@@ -18,7 +18,7 @@ export default function Coverpage({ height }: Props) {
                     <p className='text-xs sm:text-sm md:text-base font-medium   font-Inter  text-[#DDDDDD]  px-2  xs:px-7 sm:px-6 md:px-10 lg:px-56 xxl:px-80 leading-relaxed' >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
 
-                <div className='flex flex-col items-center text-[16px] leading-[23px] justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-6 pt-5'>
+                <div className='flex flex-col items-center text-[16px] leading-[23px] justify-center space-y-4 xs:flex-row sm:space-y-0 sm:space-x-6 pt-5'>
                     <div className='cursor-pointer'>
                         <button className='blue-btn w-[168px] hidden md:block'> Become Publisher</button>
                         <button className='hover-small-transparent-btn rounded-lg text-sm md:hidden'> Become Publisher</button>

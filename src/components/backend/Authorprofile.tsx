@@ -31,16 +31,13 @@ export default function Authorprofile() {
 
             <div className='grid grid-cols-3 p-7 text-[15px]'>
                 <div className=' '>
-                    <Image src="/author1.png" width={142} height={142}></Image>
+                    <Image src="/author1.png" alt={"profiele"} width={142} height={142}></Image>
                 </div>
                 <div className='font-Inter font-normal text-[#323232] space-y-2 col-span-2 mt-5'>
                     <p className='mr-6 font-medium '>Name<span className='ml-20 pl-2 font-normal'>:{authors[0].name}</span></p>
                     <p className='mr-6 font-medium'>Member since<span className='ml-5 pl-2 font-normal'>:{authors[0].membershipDate}</span></p>
                     <p className='mr-6 font-medium'>Description<span className='ml-10 pl-2 font-normal text-justify'>:{authors[0].description}</span></p>
                 </div>
-
-
-
             </div>
         </div>
     )

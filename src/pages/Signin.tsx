@@ -4,9 +4,9 @@ import ButtonComponent from '../components/main/ButtonComponent'
 import Link from 'next/link'
 export default function Login() {
     return (
-        <div className='grid md:grid-cols-8 '>
+        <div className='grid md:grid-cols-8  '>
             <div className="object-cover hidden md:inline-block relative z-0 w-full h-[760px] sm:col-span-2 md:col-span-3 lg:col-span-4">
-                <Link href="Main">
+                <Link href="/">
                     <div className='absolute cursor-pointer top-12 left-10 z-10'>
                         <Image src="/logo.png" alt='logo' width={228} height={45} layout='fixed' />
                     </div>

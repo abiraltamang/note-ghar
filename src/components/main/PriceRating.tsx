@@ -6,8 +6,9 @@ type Props = {
 export default function PriceRating({ price }: Props) {
     return (
         <>
-            <div className='relative flex items-center w-[265px] h-[36px] justify-between px-5 rounded-[5px] '>
-                <div className='absolute top-0 left-0 w-[265px] h-[36px] bg-black opacity-50'></div>
+            <div className='relative flex items-center w-[75vw] h-[36px] xs:w-[38.150vw] md:w-[23.828vw]  lg:w-[18.403vw]  bg-black opacity-50 rounded-[5px] '>
+            </div>
+            <div className='absolute w-full h-full flex items-center justify-between px-5 top-0  '>
                 <span className='text-sm font-medium font-Jost text-white '>Price: Rs {price}</span>
                 <Rating textColor="text-white" />
             </div>

@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 export default function Features2() {
     return (
-        <div className='w-full h-full lg:h-[632px] pt-[42px] lg:pt-[82px] '>
-            < div className=' max-w-[1190px] h-full lg:h-[550px] mx-[22px] sm:mx-[55px] md:mx-[65px] lg:mx-[80px]  xl:mx-[125px] flex flex-col items-center justify-center lg:flex-row   ' >
+        <div className='w-full h-full lg:h-[632px] pt-[42px] lg:pt-[20px] xl:pt-[82px] '>
+            < div className='   h-full lg:h-[550px] mx-[22px] sm:mx-[55px] md:mx-[65px] lg:mx-[80px]  xl:mx-[125px] flex flex-col items-center justify-center lg:flex-row   ' >
                 <div className=" order-2 xl:w-[595px] pt-12 lg:pt-0   ">
                     <div className=' relative h-[360px] w-[351px] lg:h-[360px] lg:w-[351px] xl:h-[494px] xl:w-[507px] xxl:h-[549px] xxl:w-[564px] '>
                         <Image className='flex items-end ' src='/aboutsection.png' alt="image" layout='fill'></Image>

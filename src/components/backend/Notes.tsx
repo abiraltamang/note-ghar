@@ -88,7 +88,7 @@ const lists = [
 
 export default function Notes() {
     return (
-        <div className='p-4 h-[662px] w-[1136px] bg-white rounded-lg ' >
+        <div className=' relative p-4 h-[662px] w-[1136px] bg-white rounded-lg ' >
             <div className='flex justify-between items-start'>
                 <h2 className='font-Inter text-lg font-medium'>Notes list</h2>
                 <div className='flex space-x-5'>
@@ -130,8 +130,8 @@ export default function Notes() {
                                     </tr>
                                 </thead>
                                 <tbody className='text-[15px] font-Inter font-normal'>
-                                    {lists.map((list) => (
-                                        <tr className="border-b">
+                                    {lists.map((list: any, index: number) => (
+                                        <tr key={index} className="border-b">
                                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
                                             <td className=" px-6 py-4 whitespace-nowrap font-Inter">
                                                 {list.title}

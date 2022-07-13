@@ -3,7 +3,7 @@ import ButtonComponent from './ButtonComponent'
 
 export default function CourseHeading() {
     return (
-        <div className='flex flex-col items-center space-y-4 lg:space-y-5 xl:space-y-6 mb-10 mt-32 m-3 text-[#37474F]'>
+        <div className='flex flex-col items-center space-y-4 lg:space-y-5 xl:space-y-6 mb-10 mt-10 xl:mt-24 m-3 text-[#37474F]'>
             <h2 className='text-2xl sm:text-3xl lg:text-heading  font-bold font-Jost text-center '>Choose Your Course Below</h2>
             <div className='mx-10 sm:mx-24 md:mx-16 lg:mx-20 xl:mx-52'>
                 <p className='text-center text-sm sm:px-14 lg:px-36 xl:px-48 font-medium  font-Inter leading-normal text text-[#37474F] md:text-base' >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>

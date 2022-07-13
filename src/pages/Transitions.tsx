@@ -1,17 +1,20 @@
-import React from 'react';
+import React from 'react'
+import Search from '../components/backend/Search'
 import Sidebar from '../components/backend/Sidebar'
-import Search from '../components/backend/Search';
-import Notes from '../components/backend/Notes'
-export default function dashboard() {
+import Transition from '../components/backend/transition/Transition'
+
+
+
+export default function Transitions() {
     return (
         <div className='flex bg-[#EEF1F8] p-[30px] space-x-[20px]'>
+
             <Sidebar />
             <div className='space-y-[30px]'>
                 <Search />
-                <Notes />
+                <Transition />
             </div>
 
         </div>
-
     )
 }

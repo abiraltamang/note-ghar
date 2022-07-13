@@ -45,15 +45,15 @@ const lists = [
 
 ]
 
-export default function listlist() {
+export default function Authorlist() {
     return (
-        <div>
-            <div className="flex flex-col">
+        <div className='p-4 h-[662px] w-[1136px] bg-white rounded-lg '>
+            <div className="flex flex-col ">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="overflow-y-auto">
-                            <table className="min-w-full">
-                                <thead className="border-b bg-theme  font-Jost font-light text-white text-[15px]">
+                            <table className="min-w-full rounded-t-md">
+                                <thead className="border-b bg-theme rounded-t-md font-Jost font-light text-white text-[15px] ">
                                     <tr>
                                         <th scope="col" className="  px-6 py-4 text-left">
                                             S.No
@@ -82,8 +82,8 @@ export default function listlist() {
                                     </tr>
                                 </thead>
                                 <tbody className='text-[15px] font-Inter font-normal'>
-                                    {lists.map((list) => (
-                                        <tr className="border-b">
+                                    {lists.map((list: any, index: number) => (
+                                        <tr key={index} className="border-b">
                                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
                                             <td className=" px-6 py-4 whitespace-nowrap font-Inter">
                                                 {list.name}

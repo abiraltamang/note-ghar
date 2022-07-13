@@ -40,7 +40,7 @@ export default function Sidebar() {
 
                     </div>
                 </Link>
-                <Link href="Transistion">
+                <Link href="Transitions">
                     <div className='my-1  w-[172px] h-[40px] rounded-[10px]  flex items-center  p-2 cursor-pointer space-x-3'>
                         <AiFillDollarCircle />
                         <span>Transition</span>
@@ -56,7 +56,7 @@ export default function Sidebar() {
                 </Link>
             </div>
             <div>
-                <Link href="Main">
+                <Link href="/">
                     <div className=' my-1 w-[172px] h-[40px] rounded-[10px] text-theme  border-[1px] border-temetext   flex items-center  p-2 cursor-pointer'>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-[17px] w-[17px] mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
