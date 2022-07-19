@@ -61,3 +61,47 @@
 .rating{
     @apply rounded-md justify-self-start flex items-center justify-center 
 }
+/* 
+This is loading spinner */
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #2ebf63; /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  .spinner-container{
+    display: flex;
+    justify-content: center;
+  }
+
+
+/* input fileds  */
+
+.input-dashboard{
+    @apply outline-none border-[1px] border-[#E0E0E0] pl-3 rounded-md h-[40px] w-40 xl:w-[200px] xxl:w-[250px]
+}
+
+
+.author-container{
+    @apply p-4 h-[662px] overflow-auto w-full bg-white rounded-lg font-Inter text-[15px] font-medium
+}
+
+.dashboard-border{
+    @apply border-[#E0E0E0] border-[1px] rounded-lg
+}
+
+
+.style-activelink{
+    @apply underline decoration-[2px] decoration-button underline-offset-[12px]
+}
