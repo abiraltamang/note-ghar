@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Cards from "../../../frontend/main/Cards";
 import Image from "next/image";
-export default function Details() {
+const Details = () => {
   return (
     <div className="p-4 h-screen w-full bg-white rounded-lg font-Inter text-[15px] overflow-auto ">
       <div className="w-full h-[40px] bg-theme font-medium text-white rounded-t-md flex items-center justify-between px-10 ">
@@ -119,12 +119,13 @@ export default function Details() {
       <div className="w-full h-[40px] bg-theme font-medium text-white rounded-t-md flex items-center justify-between px-10 ">
         <h2 className="text-[#F0F0F0]">Published Notes </h2>
       </div>
-      <div className="grid  grid-cols-4 py-6">
+      {/* <div className="grid  grid-cols-4 py-6">
         <Cards image="course1" />
         <Cards image="course2" />
         <Cards image="course3" />
         <Cards image="course4" />
-      </div>
+      </div> */}
     </div>
   );
-}
+};
+export default Details;

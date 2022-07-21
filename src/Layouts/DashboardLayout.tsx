@@ -5,6 +5,7 @@ import { getKey } from "../helpers/sessionKey";
 import useGetHook from "../hooks/useGetHooks";
 import Sidebar from "../components/backend/Sidebar";
 import Search from "../components/backend/Search";
+import ResponsiveSidebar from "../components/ResponsiveSidebar";
 
 type Props = {
   children: any;
@@ -29,6 +30,9 @@ const DashboardLayout = (props: Props) => {
     parma: "",
     auth: true,
   });
+  console.log(currentUserData, "currentUserData")
+
+  
 
   useEffect(() => {
     if (!getKey("userAuth")) {
@@ -42,11 +46,11 @@ const DashboardLayout = (props: Props) => {
     <>
       {loadPage ? (
         <div className="bg-background z-100">
-          <div className="grid xl:grid-cols-6 bg-[#EEF1F8] md:grid-cols-5 sm:grid-row-2 p-5 h-full ">
-            <div className="p-5 bg-white rounded-xl h-full mr-4">
-              <Sidebar />
+          <div className="grid grid-cols-6 bg-[#EEF1F8] md:grid-cols-5 sm:grid-row-2 p-5 h-full ">
+            <div className="col-span- p-5 bg-white rounded-xl h-full mr-4">
+              {/* <Sidebar /> */}
+              <ResponsiveSidebar />
             </div>
-
             <div className="col-span-5 ">
               {showSearch ? (
                 <div className="mb-4">

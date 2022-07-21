@@ -30,7 +30,7 @@ function Notification() {
         </svg>
       </div>
       {isActive && (
-        <div className=" absolute top-[90px] right-8 flex flex-col border-[1px] shadow-2xl rounded w-[254px] p-5 space-y-4 bg-white z-50 font-Inter text-[15px] font-normal">
+        <div className=" absolute top-[90px] right-8 flex flex-col border-[1px] shadow-2xl rounded w-[254px] p-5 space-y-4 bg-white z-50 font-Inter text-[15px] font-normal text-themetext">
           {notices.map((notice: any, index: number) => (
             <div key={index}>
               <p>{notice}</p>

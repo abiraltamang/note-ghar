@@ -11,13 +11,12 @@ const Cards = (props: Props) => {
   console.log("item", item);
 
   return (
-    <div className="max-w-sm rounded-xl overflow-hidden  shadow-lg text-themetext">
+    <div className="max-w-sm xs:w-[250px] sm:w-[280px] lg:w-[305px] rounded-xl overflow-hidden  shadow-lg text-themetext">
       <div className="relative">
-        <div className="relative h-[260px] [385px]">
+        <div className="relative h-[260px] w-[385px]">
           {/* src={`/${image}.jpg`} */}
           {/* <Image
             className="object-fill"
-            
             src={item.attachment}
             alt="Sunset in the mountains"
             layout="fill"
@@ -42,7 +41,7 @@ const Cards = (props: Props) => {
             200 Readings
           </span>
         </div>
-        <Link href={`Examdetails/${item.id}`}>
+        <Link href={`Notes/${item.id}`}>
           <div className="text-xs sm:text-sm cursor-pointer text-theme font-semibold decoration-none font-Jost">
             Read Now
           </div>

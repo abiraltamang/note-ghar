@@ -40,12 +40,9 @@ const Notes = (props: Props) => {
           date: moment(list.user.date_joined).format("DD-MM-YYYY"),
           price: "100",
           status: "sdf",
-          action: <ViewLinks linksto={`Notes/Notedetails/${list.id}`} />,
+          action: <ViewLinks linksto={`Notes/${list.id}`} />,
         })
       );
-
-  console.log(data, "datas");
-
   return (
     <div className=" relative h-screen w-[100%] bg-white rounded-lg grid grid-cols-5 ">
       <div className="col-span-5">

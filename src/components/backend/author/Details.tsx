@@ -133,12 +133,12 @@ const Details = (props: Props) => {
       <div className="w-full h-[40px] bg-theme font-medium text-white rounded-t-md flex items-center justify-between px-10 ">
         <h2 className="text-[#F0F0F0]">Published Notes </h2>
       </div>
-      <div className="flex space-x-10 py-6">
+      {/* <div className="flex space-x-10 py-6">
         <Cards image="course1" />
         <Cards image="course2" />
         <Cards image="course3" />
         <Cards image="course4" />
-      </div>
+      </div> */}
     </div>
   );
 };

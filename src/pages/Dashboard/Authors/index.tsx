@@ -5,16 +5,16 @@ import APIS from "../../../helpers/EndPoints";
 import AuthorDropDown from "../../../components/backend/dropdown/AuthorDropdown";
 import Category from "../../../components/backend/dropdown/Category";
 
-export default function Authors() {
+const Authors = () => {
   const { isLoading: authorListLoading, data: authorListDatas } = useGetHook({
-    queryKey: "authorlist",
+    queryKey: "authorListData",
     url: APIS.AUTHORS,
     parma: "",
     auth: true,
   });
 
   return (
-    <div>
+    <div className=" overflow-scroll">
       <div
         className="flex justify-between items-start bg-white"
         style={{ padding: "1rem 1rem 0 1rem" }}
@@ -26,9 +26,10 @@ export default function Authors() {
         </div>
       </div>
       <Authorlist
-        authorLists={authorListDatas}
         authorListLoading={authorListLoading}
+        authorLists={authorListDatas}
       />
     </div>
   );
-}
+};
+export default Authors;

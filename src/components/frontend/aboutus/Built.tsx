@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Built() {
   return (
-    <div className=" w-full full-[640px] bg-[#00000005] grid lg:grid-cols-2 gap-y-5">
+    <div className=" w-full full-[640px] bg-[#00000005] grid lg:grid-cols-2 gap-y-5 py-5 lg:py-0">
       <div className=" max-w-[1190px] h-full lg:h-[550px] mx-[22px] sm:mx-[55px] md:mx-[65px] lg:mx-[80px]  xl:mx-[125px]     space-y-5 lg:py-24 ">
         <h2 className="text-2xl sm:text-3xl lg:text-heading2 font-bold text-[#37474F]">
           Built on Passion and Ingenuity

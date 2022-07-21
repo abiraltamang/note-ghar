@@ -9,11 +9,11 @@ export default function search(props: Props) {
   const { userData } = props;
 
   return (
-    <div className="relative bg-white px-6 py-4 flex justify-between items-center rounded-md placeholder-Header text-lg">
-      <div className="flex">
+    <div className="bg-white px-6 py-4 flex justify-between items-center rounded-md placeholder-Header text-lg z-1">
+      <div className="flex items-center justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6  w-6 mr-5"
+          className="h-6 w-6 mr-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -28,7 +28,7 @@ export default function search(props: Props) {
         <input
           type="text"
           placeholder="Search Notes"
-          className="outline-none "
+          className="w-20 lg:w-56 text-xs lg:text-base outline-none"
         />
       </div>
       <div>

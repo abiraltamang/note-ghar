@@ -23,7 +23,6 @@ export default function Sidebar() {
 
   console.log('router.pathname', router.pathname)
 
-
   return (
     <div className="h-screen bg-[#FFFFFF] text-[#37474F] font-Inter font-medium grid grid-cols-6 content-between relative ">
       <div className="col-span-1">

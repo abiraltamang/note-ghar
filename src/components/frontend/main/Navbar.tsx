@@ -1,17 +1,26 @@
 import React, { useState } from "react";
+import APIS from "../../../helpers/EndPoints";
 import Image from "next/image";
 import Link from "next/link";
+import Profile from "../../backend/Profile";
+import useGetHook from "../../../hooks/useGetHooks";
+import { getKey } from "../../../helpers/sessionKey";
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("home");
 
-  console.log(activeLink);
-
   const [isOpen, setIsopen] = useState(false);
+  const { isLoading: currentUserLoading, data: currentUserData } = useGetHook({
+    queryKey: "currentUserData",
+    url: APIS.CURRENT_USER,
+    parma: "",
+    auth: true,
+  });
+
   return (
     <div>
       <div className=" relative  w-full text-[#FFFFFF] bg-theme ">
-        <div className="flex items-center  mx-[14px] sm:mx-[22px] md:mx-[26px] lg:mx-[32px] xl:mx-[50px]   justify-between  sm:h-[100px]  ">
+        <div className="flex items-center  mx-[14px] sm:mx-[22px] md:mx-[26px] lg:mx-[32px] xl:mx-[50px]   justify-between  h-[100px]  ">
           <Link href="/">
             <div className="cursor-pointer relative h-[30px] w-[160px] xs:h-[45.29px] xs:w-[224.3px]">
               <Image src="/logo.png" alt="cover image" layout="fill" />
@@ -63,7 +72,7 @@ const Navbar = () => {
                 <span className="cursor-pointer">Home</span>
               </div>
             </Link>
-            <Link href="Notes">
+            <Link href="/Notes">
               <div
                 className={`${activeLink == "notes" ? "style-activelink" : ""}`}
                 onClick={() => setActiveLink("notes")}
@@ -81,7 +90,7 @@ const Navbar = () => {
                 <span className="cursor-pointer">Trending Notes</span>
               </div>
             </Link>
-            <Link href="contactus">
+            <Link href="/Contactus">
               <div
                 className={`${
                   activeLink == "contactus" ? "style-activelink" : ""
@@ -103,7 +112,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-          <div className="lg:flex hidden ">
+          <div className="lg:flex  hidden items-center  ">
             <div className="h-[45px] w-[45px] rounded-[50%] border-[1px] border-white cursor-pointer mr-[23px] flex items-center justify-center">
               <div className="relative w-[14.22px] h-[14.21px]">
                 <Image
@@ -113,13 +122,19 @@ const Navbar = () => {
                 ></Image>
               </div>
             </div>
-            <Link href="Signin">
-              <div>
-                <button className="bg-button h-[45px] rounded-[5px] w-[145px] text-base font-Jost font-normal ">
-                  Login/Signup
-                </button>
-              </div>
-            </Link>
+            <div>
+              {!getKey("userAuth") ? (
+                <Link href="/Signin">
+                  <div>
+                    <button className="bg-button h-[45px] rounded-[5px] w-[145px] text-base font-Jost font-normal ">
+                      Login/Signup
+                    </button>
+                  </div>
+                </Link>
+              ) : (
+                <Profile userData={currentUserData} />
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -131,28 +146,28 @@ const Navbar = () => {
                 <span>Home</span>
               </div>
             </Link>
-            <Link href="Notes">
+            <Link href="/Notes">
               <div className="mx-3 mb-4 text-[16px] cursor-pointer">
                 <span>Notes</span>
               </div>
             </Link>
-            <Link href="Trendingnotes">
+            <Link href="/TrendingNotes">
               <div className="mx-3 mb-4 text-[16px] cursor-pointer">
                 <span>Trending Notes</span>
               </div>
             </Link>
-            <Link href="Contactus">
+            <Link href="/ContactUs">
               <div className="mx-3 mb-4 text-[16px] cursor-pointer">
                 <span>Contact us</span>
               </div>
             </Link>
 
-            <Link href="Aboutus">
+            <Link href="/AboutUs">
               <div className="mx-3 mb-4 text-[16px] cursor-pointer">
                 <span>About us</span>
               </div>
             </Link>
-            <Link href="Signin">
+            <Link href="/Signin">
               <div>
                 <button className="small-transparent-btn mb-4 font-Jost rounded-md text-sm hover:border-button">
                   Login/Signup

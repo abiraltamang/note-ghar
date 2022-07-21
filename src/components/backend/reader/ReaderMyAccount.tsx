@@ -25,7 +25,7 @@ export default function MyAccount() {
         </div>
         <div className='flex items-start space-x-5  py-3'>
             <div className='relative'>
-                <Image src='/publisher image.png' width={255} height={228}></Image>
+                <Image src='/publisher image.png' width={255} height={228} alt="publisher"></Image>
             </div>
             <div className=' w-[650px] xl:w-[804px] h-full p-4 dashboard-border font-Inter font-normal text-[#263238]  '>
                 <div className='flex border-b-[1px] border-[#E0E0E0] pb-2'>

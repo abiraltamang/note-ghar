@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import moment from "moment";
 import ViewLinks from "../../reusable/customLink/ViewLinks";
 import CustomeTable from "../../reusable/custometable/CustomeTable";
@@ -21,31 +21,41 @@ type Props = {
 };
 const Authorlist = (props: Props) => {
   const { authorLists, authorListLoading } = props;
+  const [authorData, setAuthorData] = useState([]);
   console.log(authorLists, "authorlists");
 
+  useEffect(() => {
+    setAuthorData(authorLists);
+  }, [authorLists]);
+
   let data: any = [];
-  authorListLoading
-    ? ""
-    : authorLists.map((list: any, index: any) =>
-        data.push({
-          sn: index + 1,
-          title: list.user.profile?.full_name,
-          category: list.user.email,
-          list: list.user.mobile_number,
-          reader: "Reader",
-          date: moment(list.user.date_joined).format("DD-MM-YYYY"),
-          status: "sdf",
-          action: (
-            <ViewLinks linksto={`Authors/Authordetails/${list.user.id}`} />
-          ),
-        })
-      );
+  authorData.map((list: any, index: any) =>
+    data.push({
+      sn: index + 1,
+      title: list.user.profile?.full_name,
+      category: list.user.email,
+      list: list.user.mobile_number,
+      reader: "Reader",
+      date: moment(list.user.date_joined).format("DD-MM-YYYY"),
+      status: "sdf",
+      action: <ViewLinks linksto={`Authors/Authordetails/${list.user.id}`} />,
+    })
+  );
 
   console.log(data, "data");
-  return authorListLoading ? (
-    <LoadingSpinner />
-  ) : (
-    <CustomeTable data={data} columns={columns} hover={true} striped={true} />
+  return (
+    <>
+      {authorListLoading ? (
+        <LoadingSpinner />
+      ) : (
+        <CustomeTable
+          data={data}
+          columns={columns}
+          hover={true}
+          striped={true}
+        />
+      )}
+    </>
   );
 };
 export default Authorlist;

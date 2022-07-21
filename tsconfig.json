@@ -16,6 +16,6 @@
     "incremental": true,
    
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/pdf-viewer.js", "src/pages/Pdftest.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/pdf-viewer.js", "src/pages/Pdftest.jsx", "src/components/ResponsiveSidebar.js"],
   "exclude": ["node_modules"]
 }

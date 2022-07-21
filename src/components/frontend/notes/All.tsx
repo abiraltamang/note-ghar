@@ -8,6 +8,7 @@ import Categories from "../exam/Categories";
 import Relatedexams from "../exam/Relatedexams";
 import ExamdetailsTable from "../exam/ExamdetailsTable";
 
+
 type props = {
   examData: any;
 };
@@ -19,9 +20,9 @@ const All = (props: props) => {
     <>
       <div className="mx-[22px] sm:mx-[55px] md:md:mx-[65px] lg:mx-[80px] xl:mx-[125px] py-16 flex space-x-12 flex-col xl:flex-row items-start justify-between ">
         <div>
-          <Notes />
-          <Publisher examData={examData} />
+          <Notes  examData={examData}/>
           <Feedback />
+          <Publisher examData={examData}/>
         </div>
         <div>
           <div className="flex items-center flex-col xs:flex-row justify-center md:flex-col">

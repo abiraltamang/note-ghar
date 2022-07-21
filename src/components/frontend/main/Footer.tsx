@@ -1,10 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import ButtonComponent from "./ButtonComponent";
 import Copyright from "./Copyright";
+import SocialMediaIcons from "../../reusable/icons/SocialMediaIcons";
+import { useRouter } from "next/router";
 
-export default function Footer() {
+const Footer = () => {
+  const router = useRouter();
+
   return (
     <>
       <div className="">
@@ -19,13 +22,16 @@ export default function Footer() {
             />
             <div className="relative top-0 left-0 grid grid-cols-1 xs:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 space-y-4  ">
               <div className="text-white  xl:text-[1.1rem] cols-span xs:col-span-2 xs:mr-7 sm:mr-10 md:mr-16  xl:mr-20 ">
-                <div className="mb-5 ">
-                  <Image
-                    src="/logo.png"
-                    alt="logo image"
-                    height={44.86}
-                    width={200}
-                  />
+                <div className="mb-5">
+                  <Link href="/">
+                    <Image
+                      src="/logo.png"
+                      alt="logo image"
+                      height={44.86}
+                      width={200}
+                      className="cursor-pointer"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm md:text-base font-Inter text-[#E5E5E5] lg:mr-6 leading-[26px] ">
                   The point of using Lorem Ipsum is that it has a more-or-less
@@ -51,7 +57,7 @@ export default function Footer() {
                     <p className="font-Jost font-medium leading-[18px]">
                       Email Address
                     </p>
-                    <p className="font-Inter font-medium text-xs sm:text-sm md:text-md lg:text-[15px] leading-[15px] text-[#E5E5E5]">
+                    <p className="font-Inter font-medium text-xs sm:text-sm md:text-md lg:text-[15px] leading-[15px] text-[#E5E5E5] hover:text-yellow-500">
                       <a href="mailto:testmail@mail.com">testmail@mail.com</a>
                     </p>
                   </div>
@@ -66,7 +72,7 @@ export default function Footer() {
                     <h2 className="font-Jost font-medium leading-[18px]">
                       Phone
                     </h2>
-                    <p className="font-Inter font-medium text-xs sm:text-sm md:text-md lg:text-[15px] leading-[15px] text-[#E5E5E5]">
+                    <p className="font-Inter font-medium text-xs sm:text-sm md:text-md lg:text-[15px] leading-[15px] text-[#E5E5E5] hover:text-yellow-500">
                       <a href="tel:+977-9837485974">+977-9837485974</a>
                     </p>
                   </div>
@@ -93,40 +99,73 @@ export default function Footer() {
                   <div className="w-14 h-[2px] rounded-md bg-button mt-3 xs:mb-3"></div>
                 </div>
                 <div className="flex flex-col space-y-1 sm:space-y-2  lg:space-y-[18px] font-medium font-Inter sm:text-sm  md:text-md lg:text-base leading-[26px]">
-                  <p className="cursor-pointer">Support</p>
+                  <p className="cursor-pointer hover:text-yellow-500">
+                    Support
+                  </p>
                   <Link href="aboutus">
-                    <p className="cursor-pointer">About Us</p>
+                    <p className="cursor-pointer hover:text-yellow-500">
+                      About Us
+                    </p>
                   </Link>
                   <Link href="contactus">
-                    <p className="cursor-pointer">Contact Us</p>
+                    <p className="cursor-pointer hover:text-yellow-500">
+                      Contact Us
+                    </p>
                   </Link>
                   <Link href="trendingnotes">
-                    <p className="cursor-pointer">Trending Notes</p>
+                    <p className="cursor-pointer hover:text-yellow-500">
+                      Trending Notes
+                    </p>
                   </Link>
-                  <p className="cursor-pointer">Become an Author</p>
+                  <p className="cursor-pointer hover:text-yellow-500">
+                    Become an Author
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col text-white mt-5 sm:mt-0 col-span-1 xs:col-span-2 xs:ml-10 md:ml-0 lg:ml-16 xl:ml-20">
-                <div className="mb-5">
-                  <h1 className="text-xl font-Jost font-medium">Subscribe</h1>
-                  <div className="w-14 h-[2px] rounded-md  bg-button mt-3 sm:mb-3"></div>
-                </div>
-                <p className="mb-4  sm:text-md md:text-base leading-[26px] font-medium font-Inter text-[#E5E5E5]">
-                  Get latest notes in your mail, subscribe to our newsletter.
-                </p>
-                <div className=" flex flex-col">
-                  <div className="pb-2">
-                    <input
-                      type="text"
-                      className="py-1 mb-4 mr-6 rounded-lg border-slate-400 pl-2 bg-transparent border-b-2 outline-none  xl:w-[298px]"
-                      placeholder="Insert your Email"
-                    />
+              {/* subscribe */}
+              {router.asPath === "/" ? (
+                <div className="flex flex-col text-white mt-5 sm:mt-0 col-span-1 xs:col-span-2 xs:ml-10 md:ml-0 lg:ml-16 xl:ml-20">
+                  <div className="mb-5">
+                    <h1 className="text-xl font-Jost font-medium">Subscribe</h1>
+                    <div className="w-14 h-[2px] rounded-md  bg-button mt-3 sm:mb-3"></div>
                   </div>
-                  <button className="btn-text w-[145px] orange-btn">
-                    Subscribe
-                  </button>
+                  <p className="mb-4  sm:text-md md:text-base leading-[26px] font-medium font-Inter text-[#E5E5E5]">
+                    Get latest notes in your mail, subscribe to our newsletter.
+                  </p>
+                  <div className=" flex flex-col">
+                    <div className="pb-2">
+                      <input
+                        type="text"
+                        className="py-1 mb-4 mr-6 rounded-lg border-slate-400 pl-2 bg-transparent border-b-2 outline-none  xl:w-[298px]"
+                        placeholder="Insert your Email"
+                      />
+                    </div>
+                    <button className="btn-text w-[145px] orange-btn">
+                      Subscribe
+                    </button>
+                  </div>
                 </div>
-              </div>
+              ) : (
+                <div className="flex flex-col text-white mt-5 sm:mt-0 col-span-1 xs:col-span-2 xs:ml-10 md:ml-0 lg:ml-16 xl:ml-20">
+                  <div className="mb-5">
+                    <h1 className="text-xl font-Jost font-medium">
+                      Social media link
+                    </h1>
+                    <div className="w-14 h-[2px] rounded-md  bg-button mt-3 sm:mb-3"></div>
+                  </div>
+
+                  <div className=" flex flex-wrap w-[200px]">
+                    <SocialMediaIcons src={"/facebook.png"} link_to={"#"} />
+                    <SocialMediaIcons src={"/instagram.png"} link_to={"#"} />
+                    <SocialMediaIcons src={"/linkedin.png"} link_to={"#"} />
+                    <SocialMediaIcons src={"/twitter.png"} link_to={"#"} />
+                    <SocialMediaIcons src={"/youtube.png"} link_to={"#"} />
+                    <SocialMediaIcons src={"/airnb.png"} link_to={"#"} />
+                  </div>
+                </div>
+              )}
+
+              {/* social media link */}
             </div>
           </div>
         </div>
@@ -134,4 +173,5 @@ export default function Footer() {
       </div>
     </>
   );
-}
+};
+export default Footer;

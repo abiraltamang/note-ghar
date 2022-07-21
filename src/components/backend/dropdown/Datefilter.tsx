@@ -41,8 +41,8 @@ function Datefilter() {
                   <p className="font-Inter text-[15px] font-medium">To</p>
                   <div className="border-[1px] rounded-lg">end date</div>
                 </div>
-                {day.map((item: any) => (
-                  <div className="bg-theme rounded-lg flex justify-center items-center h-8 ">
+                {day.map((item: any, index:any) => (
+                  <div key={index} className="bg-theme rounded-lg flex justify-center items-center h-8 ">
                     <p className="text-white font-Inter font-medium text-[15px]">
                       {item}
                     </p>

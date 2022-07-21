@@ -15,7 +15,7 @@ const CustomeInput = (props: Props) => {
       <input
         type={type}
         placeholder={placeholder}
-        className="outline-none border-[1px] border-[#E0E0E0] rounded-lg h-[40px] pl-3 w-[250px]"
+        className="outline-none border-[1px] border-[#E0E0E0] rounded-lg h-[35px] md:h-[40px] pl-3 w-full"
         value={value}
         disabled
       />
